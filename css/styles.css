@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 .if{
-	width:700px;
+	width:600px;
 	height:530px;
 	background-color: black;
 }
@@ -13,21 +13,22 @@
 	margin-right: -75px;
 	float: left;
 	
-	
+	/*floated image left to help align text*/
 	
 }
 .if p{
 	float: left;
 	color: white;
 	margin-top: 300px;
-	width: 195px;
+	width: 210px;
 	
-	
+	/*used a bigger width with &nbsp to break text*/
 	
 }
 h1{
 	color:red;
 	margin-bottom:-15px;
+	
 }
 
 h2{
@@ -38,7 +39,7 @@ h2{
 }
 
 .adobe{
-	width: 700px;
+	width: 575px;
 	height: auto;
 	
 	
@@ -52,6 +53,7 @@ h2{
 }
 .body{
 	width: 360px;
+	margin-left: 20px;
 }
 h3{
 	margin-left: 20px;
